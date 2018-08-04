@@ -1,0 +1,127 @@
+# Header
+menu:
+  首页: /
+  研究室: /研究室介绍/
+  教师信息: /教师信息/
+  科研成果: /科研成果/
+  照片: /照片/
+  联系方式: /联系方式/
+  博文: /archives/
+  #English version: /en/
+#/comment
+
+# 是否RSS
+rss: /atom.xml
+
+# Content
+excerpt_link: 阅读全文
+fancybox: true
+# 
+word_count: true
+
+# 在Hexo根目录下的_config.yml文件里密码设置decrypt-Security
+##
+
+
+# Links
+links:
+ 开源中国: https://my.oschina.net/u/3372900
+ Marine Biogeochemistry Lab: http://yuumezawa.com/Lab
+ Landscape github: https://github.com/SykieChen/hexo-theme-hic17
+ Science: http://www.sciencemag.org/ 
+ Nature: http://www.nature.com/ 
+ PNAS: http://www.pnas.org/
+ 国自然基金查询: https://isisn.nsfc.gov.cn
+ 
+
+# Sidebar
+sidebar: right
+widgets:
+ - google_search
+ #- broadcast
+ - about_me
+ #- recent_posts
+ - category
+ - archive
+ - sharegarden 
+ - links
+ - visitor_counter 
+ - calendar
+ 
+ #- tagcloud
+ - recent_comments
+ - google_Ads
+ 
+ 
+#共享园地
+sharegarden:
+     texts: 
+     - <a href="http://PhDMeiwp.github.io/期刊与投稿/">期刊与投稿</a>
+     - <a href="http://PhDMeiwp.github.io/论文写作经验/">论文写作经验</a>
+     - <a href="http://PhDMeiwp.github.io/基金申请/">基金申请</a>
+     - <a href="http://PhDMeiwp.github.io/名言警句/">名言警句</a>
+#about me
+about_me:
+  
+  texts:
+  - <a href="http://PhDMeiwp.github.io/">梅卫平</a>
+  - Marine Sci., Nagasaki Univ.
+  -                            
+  - <a href="http://blog.sciencenet.cn/u/meiweipingg" title="科学网" target="_blank"><img src="http://i4.buimg.com/567571/0044520727e81248.png" width=15% height=15% ></a>   <a href="http://www.facebook.com/meiweipingg" title="Facebook" target="_blank"><img src="http://i1.piimg.com/567571/9e2302528fbac519.png" width=15% height=15% ></a> <a href="http://orcid.org/0000-0001-6400-9862" title="ORCiD" target="_blank"><img src="http://i1.piimg.com/567571/a218cba2d269aca5.png" width=15% height=15% ></a>   <a href="https://www.researchgate.net/profile/Weiping_Mei" title="ResearchGate" target="_blank"><img src="http://i1.piimg.com/567571/553d0e51933c8e4a.png" width=15% height=15% ></a>   <a href="https://github.com/PhDMeiwp" title="Github" target="_blank"><img src="http://i1.piimg.com/567571/eb56cb6e640f5fcd.png" width=16% height=16% ></a>   
+  #- <a href="https://github.com/PhDMeiwp/PhDMeiwp.github.io">My Github</a>
+  #- ---------------------------------------
+  #- <a href="http://PhDMeiwp.github.io/" title="扫二维码分享" target="_blank"><img src="http://p1.bqimg.com/567571/fa7b482ddc6cb519.png"  width=60% height=60% align=center/ ></a></br><center>扫二维码，分享此网站主页</center></a>
+    
+#本站统计visitor_counter
+visitor_counter:
+        texts:
+        #- <br>
+        #- <center>首页访客数：<img border="0" src="http://cc.amazingcounters.com/counter.php?i=3213896&c=9642001"></center>
+        
+        #- <center>首页访问量：<img border="0" src="http://cc.amazingcounters.com/counter.php?i=3213895&c=9641998"></center>
+        #- <br>
+        - <center><a href="http://info.flagcounter.com/UcO3"><img src="http://s01.flagcounter.com/count2/UcO3/bg_FFFFFF/txt_000000/border_FFFFFF/columns_2/maxflags_100/viewers_0/labels_1/pageviews_1/flags_1/percent_0/" width=90% height=90% align=center/  border="0"></a> 
+        - <center><a href="https://www.revolvermaps.com/?target=enlarge&amp;i=5wvp5ufpxwv" title="流量统计" target="_blank"><img src="//rf.revolvermaps.com/h/m/a/0/ff0000/128/0/5wvp5ufpxwv.png" width=90% height=90% align=center/ alt="Map" style="border:0;"></a></center>
+  
+#- flagcounter国旗全球图片版地址 http://s01.flagcounter.com/map/UcO3/size_s/txt_000000/border_CCCCCC/pageviews_1/viewers_0/flags_1/
+#- <a href="http://www.amazingcounters.com"><font size=5px>总访问量：</font><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3213892&c=9641989"></a>
+#- <a href="http://www.amazingcounters.com"><font size=5px>总访客数：</font><img border="0" src="http://cc.amazingcounters.com/counter.php?i=3213891&c=9641986" ></a>  
+
+
+#国旗size大 <img src="https://s11.flagcounter.com/countxl/Bi6G/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+#国旗size中：count2/  <img src="https://s01.flagcounter.com/count2/hf3F/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+#国旗size小：count/ <img src="https://s04.flagcounter.com/count/xi1g/bg_FFFFFF/txt_000000/border_CCCCCC/columns_2/maxflags_10/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+
+# display widgets at the bottom of index pages (pagination == 2)
+index_widgets:
+# - category
+# - tagcloud
+# - archive
+
+#打赏
+donate:
+  enable: true
+  text: 点击上方“赏”字，进行"微信/支付宝打赏"博主，让开源免费薪火不断！
+  wechat: https://ooo.0o0.ooo/2017/03/24/58d48f6ae0799.jpg
+  alipay: https://ooo.0o0.ooo/2017/03/24/58d48f4e8ff1f.jpg
+
+#Scroll to top
+go_top: true
+
+
+# widget behavior 
+archive_type: 'yearly' 
+show_count: true   
+
+# Miscellaneous 
+google_analytics: UA-93089521-1
+favicon: /mei.ico  
+twitter:
+google_plus:
+fb_admins:
+fb_app_id:
+
+language: zh-Hans
+# duoshuo  
+# duoshuo_shortname: phdmeiwp
+disqus_shortname: weipingmei

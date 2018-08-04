@@ -1,0 +1,308 @@
+
+<%- partial('_partial/head') %>
+ 
+	  
+<% if (is_post()){ %>
+  <body>
+<% } %>  
+
+<% if (is_page()){ %>
+  <body>
+<% } %> 
+
+<div id="container">
+<div id="wrap">
+<%- partial('_partial/header', null, {cache: !config.relative_link}) %>
+<div id="content" class="outer">	
+
+<!--  以下为长横幅广告位置 -->
+         
+<a href=""><img src='' width=100%  align=center></a>
+<!--  长横幅广告结束 -->	 
+
+		
+<% if (is_home()){ %>
+ <!-- 修改section "main"-->
+<section id="main">
+
+		<table bgcolor=#eee style="vertical-align:top;"  width="100%">
+		
+		<!-- 1st row margin -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=100% colspan="5" height=1px> &nbsp;&nbsp;
+		<br>
+		</td>
+		</tr>
+				
+
+	  		<!-- 以下是新增的Google广告代码	-->	
+			<!-- 自定义宽度,根据个人爱好选择是否添加google广告 -->
+<!-- <style type="text/css">
+.adslot_1 { min-width:320px; max-width:(column-width + gutter-width) * columns; width:100%; height: 100px; }
+@media (min-width: 500px) { .adslot_1 { height: 60px; } }
+@media (min-width: 800px) { .adslot_1 { height: 90px; } }
+</style>
+<ins class="adsbygoogle adslot_1"
+    style="display:inline-block;"
+     data-ad-client="ca-pub-7390437336363898"
+     data-ad-slot="9075736497"</ins>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>(adsbygoogle = window.adsbygoogle || []).push({});</script>
+	<!-- Google广告代码结束-->	
+
+		
+<!-- top 无边框式 Google搜索代码开始 -->
+		<tr style="vertical-align:top;">
+		
+
+		<td style="text-align:center; vertical-align:top;" width=78% colspan="3" height=1 px>
+
+		  <script>
+  (function() {
+    var cx = '007725892432175431664:jvi5thizlhe';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//cse.google.com/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:searchbox-only></gcse:searchbox-only>
+
+	</td>
+<!-- 搜索框代码结束-->	
+	
+
+	
+		<!-- rowspan all for widgets 右侧插件栏-->	
+		
+		<td style="text-align:left; vertical-align: top;" width=2% height=1 px>
+		</td>
+
+		<td style="text-align: left; vertical-align: top;" width=20% rowspan="12" height=1 px>
+
+              
+		<%- partial('_partial/broadcast', null, {cache: !config.relative_link}) %>   
+		
+		<a href="https://564314073.docs.qq.com/2CZE0L3X3KI"><img src='https://i.loli.net/2017/10/01/59d07187d854c.png' width=100%  title="点击查看：研究室揭示板" align=center></a>
+
+		
+				<!-- 右侧边栏的图片“鱼缸动画” -->
+		<a href=""><img src="https://i.loli.net/2017/08/24/599e7ec5a3b4d.gif" align=center title="嘘，小声点儿，鱼儿们正在欢快地游着^_^" width=100%></a> 
+		
+        <br><%- partial('_partial/mei-gerenguanzhu', null, {cache: !config.relative_link}) %>		
+		
+		<a href="http://phdmeiwp.github.io/%E8%AE%BA%E6%96%87%E5%86%99%E4%BD%9C%E7%BB%8F%E9%AA%8C/"><img src="https://i.loli.net/2017/09/20/59c243bfe6312.jpg" title="论文写作" align=center width=100% ></a>
+		<br><a href="http://phdmeiwp.github.io/%E6%9C%9F%E5%88%8A%E4%B8%8E%E6%8A%95%E7%A8%BF/"><img src="http://i2.muimg.com/588926/10e64af4270bda93.png" title="投稿与审稿" align=center width=100% ></a> 
+		<br><a href="http://phdmeiwp.github.io/%E5%9F%BA%E9%87%91%E7%94%B3%E8%AF%B7/"><img src="https://i.loli.net/2017/09/20/59c2443e312b5.jpg" title="基金申请" align=center width=100% ></a> 
+		
+
+
+        <%- partial('_partial/category', null, {cache: !config.relative_link}) %>		
+		
+		<a href="http://phdmeiwp.github.io/%E6%96%87%E5%8C%96%E4%BC%A0%E6%89%BF/"><img src="http://i1.piimg.com/588926/331d0e3905d037be.png" title="文化传承" align=center width=100% ></a>
+		<br><a href="http://phdmeiwp.github.io/%E8%8A%B1%E9%B8%9F%E8%99%AB%E9%B1%BC%E7%99%BE%E7%A7%91/"><img src="http://i2.muimg.com/588926/ad726ab651d541b2.png" title="花鸟虫鱼" align=center width=100% ></a> 
+        <br><a href="http://phdmeiwp.github.io/%E5%90%8D%E8%A8%80%E8%AD%A6%E5%8F%A5/"><img src="https://i.loli.net/2017/08/20/5998e79ab5c34.gif" title="一言之师" align=center width=100% ></a> 
+
+		
+		<br><%- partial('_partial/visitor_counter', null, {cache: !config.relative_link}) %>	
+
+		<!-- 添加 “理工科版 科研年度时间表”+“龙猫学术导航网”+“谣言粉碎机”图片 -->
+		
+		<a href="http://phdmeiwp.github.io/%E9%BE%99%E7%8C%AB%E5%AD%A6%E6%9C%AF%E5%AF%BC%E8%88%AA%E7%BD%91/"><img src="https://i.loli.net/2017/09/18/59bf90fc1b837.png" title="点击查看：龙猫学术导航网" align=center width=100% ></a> 
+        
+		<br><a href="http://phdmeiwp.github.io/%E5%B9%B4%E5%BA%A6%E6%97%B6%E9%97%B4%E8%A1%A8/"><img src="https://i.loli.net/2017/09/17/59be02b0c37fb.png" title="点击查看：理工科版-科研年度时间表" align=center width=100% ></a> 
+
+		<br><a href="http://phdmeiwp.github.io/%E8%B0%A3%E8%A8%80%E7%B2%89%E7%A2%8E%E6%9C%BA/"><img src="https://i.loli.net/2017/09/18/59bf550983ec9.png" title="点击查看：《谣言粉碎机》" align=center width=100% ></a> 
+
+		
+		
+        <!-- add bottom link3 -->
+		<%- partial('_partial/bottom_links3', null, {cache: !config.relative_link}) %>
+		
+		<!-- add bottom link4 竭诚合作 -->
+		<%- partial('_partial/bottom_links4', null, {cache: !config.relative_link}) %>
+		
+		<!-- 添加两张带二维码的banner图片 -->
+		<a href="http://phdmeiwp.github.io/"><img src="http://i4.buimg.com/588926/b529b549850f450a.png" align=center width=100% ></a> 
+				
+		<!-- 根据排版内容对齐看是否添加第二张图片
+		
+		<br><a href="http://meiweiping.github.io/"><img src="http://i1.piimg.com/588926/ff4d7ec1701d4546.png" align=center width=100%></a> 
+		-->	
+				
+		<!-- 座右铭 -->
+		
+		<br><br><b>致网友,也写给自己：</b>
+		<br>"青春无悔"，你还在无所事事吗？<font color=red>Open your mind! 看中外文书籍、查文献、做实验、写论文</font>呀。<font color=red>Go, Go, Go, Do it NOW!</font>	
+				
+<br><a href="http://phdmeiwp.github.io/%E5%AE%B6%E5%BA%AD%E5%8C%BB%E7%94%9F/" title=好身体是科研的基本保障！点击查看博文-家庭医生><img src="https://i.loli.net/2017/11/07/5a01a47fa9d7f.png" align=right width=50%></a> 
+		
+		</td>	
+		</tr>
+<!-- 右侧插件栏代码结束 -->
+		</tr>
+		
+		
+			
+		<!-- 0th row 顶部链接 学术搜索-绿色通道-->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=78% colspan="3" height=1 px>
+		<%- partial('_partial/ahead_links', null, {cache: !config.relative_link}) %>
+		</td>
+		</tr>
+
+		<!-- 1nd row 图片"拼搏" 
+		<tr style="vertical-align:top;">
+		<td style="text-align:center; vertical-align:top;" width=78% colspan="3" height=1 px> 
+		
+		<a href=""><img src="https://i.loli.net/2017/09/22/59c4793cab6db.jpg" align=center  title="拼搏，把每天当成最后一天" width=100%></a> 
+		</td>
+		parts-->
+				
+
+	
+		<!-- 1st row 论文 and 最新博文-->
+		<tr style="vertical-align:top;">
+		<!--  手动添加网站logo图片 -->
+		<td style="text-align:left; vertical-align: top;" top=0 width=38% height=1 px><%- partial('_partial/category_article', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align: top;" width=2% height=1 px>
+		</td>
+		<td style="text-align:left; vertical-align: top;" top=0 width=38% height=1 px><%- partial('_partial/recent_posts', null, {cache: !config.relative_link}) %>
+		</td>
+
+		</tr>	
+
+
+		
+		<!-- 3th row R语言 and statistic -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=38%　height=1 px><%- partial('_partial/category_Ryuyan', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=38% height=1 px><%- partial('_partial/category_statistic', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</tr>
+		
+		<!-- 4th row 同位素 and 他山之石 -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=38%　height=1 px><%- partial('_partial/category_isotope', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=38% height=1 px><%- partial('_partial/category_tashanzhishi', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</tr>
+
+		
+		<!-- 图片间隔“做手边的事情最重要”-->
+		<tr style="vertical-align:top;">
+		<td style="text-align:center; vertical-align:top;" width=78% colspan="3" height=1 px> 
+        <a href="https://phdmeiwp.github.io/%E6%8E%A8%E8%8D%90%E4%B9%A6%E5%8D%95%E3%80%8A%E4%BA%BA%E6%80%A7%E7%9A%84%E4%BC%98%E7%82%B9%E3%80%8B/"><img src="https://i.loli.net/2017/08/24/599e7b5a750b5.jpg" align=center  title="完全独立的今日" width=100%></a> 
+		</td>
+		</tr>
+				
+		<!-- 5th row Hexo建站 and 科研工具 parts -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=38%　height=1 px><%- partial('_partial/category_Hexo', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=38% height=1 px><%- partial('_partial/category_xiaogongju', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</tr>
+		
+		<!-- 6th row  趣味百科 and 推荐书单 parts -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=38%　height=1 px><%- partial('_partial/category_quweibaike', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=38% height=1 px><%- partial('_partial/category_booklists', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</tr>
+
+		<!-- 7th row  电脑技术 and 轻松一刻 parts -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=38%　height=1 px><%- partial('_partial/category_diannaojishu', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=38% height=1 px><%- partial('_partial/category_qingsongyike', null, {cache: !config.relative_link}) %>
+		</td>
+		<td style="text-align:left; vertical-align:top;" width=2% height=1 px>
+		</tr>
+
+		
+		<!-- 图片间隔 parts
+		<tr style="vertical-align:top;">
+		<td style="text-align:center; vertical-align:top;" width=78% colspan="3" height=1 px> 
+        <a href="https://meiweiping.github.io"><img src="https://ooo.0o0.ooo/2017/05/29/592c0f1832239.gif" align=center width=100%></a> 
+		</td>
+		</tr>		-->
+		
+		<!-- 7rd row 底部友情链接1+1 -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=78% colspan="3" height=1 px>
+		<%- partial('_partial/bottom_links1', null, {cache: !config.relative_link}) %>
+		</td>
+		</tr>	
+
+	
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=78% colspan="3" height=1 px>
+		<%- partial('_partial/bottom_links2', null, {cache: !config.relative_link}) %>
+		
+				
+				
+		<%- partial('_partial/tagcloud', null, {cache: !config.relative_link}) %>
+		
+		</td>
+		</tr>	
+
+
+		
+		<!-- last row margin -->
+		<tr style="vertical-align:top;">
+		<td style="text-align:left; vertical-align:top;" width=100% colspan="5" height=1px> &nbsp;&nbsp;
+		<br>
+
+
+</td>
+		</tr>
+		
+		</table>	
+		</section>
+
+			
+	
+		
+		
+ <% } else {%>
+<section id="main" style="float:none;"><%- body %></section>
+<% } %>
+
+</div>
+ 
+     <%- partial('_partial/footer', null, {cache: !config.relative_link}) %>  
+</div> 
+
+	   		
+
+   
+<%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
+    <%- partial('_partial/after-footer') %>
+	
+
+	
+</div> 
+</body>
+</html>

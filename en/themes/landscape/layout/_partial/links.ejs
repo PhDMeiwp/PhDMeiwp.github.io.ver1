@@ -1,0 +1,20 @@
+<% if (site.posts.length){ %>
+<div class="widget-wrap">
+
+  <div class="widget">
+    <h3 class="widget-title">
+	<table width="100%" border="0"><td style="text-align:left; " width=75%><font size= 3px>&#x53CB;&#x60C5;&#x94FE;&#x63A5;</font>
+	<td style="text-align:right; text-decoration: none; " width=25%><a href="http://phdmeiwp.github.io/友情链接/"><font size= 2px>&#x66F4;&#x591A;>></font></a></table>
+	</h3>
+	
+    <table><td colspan="2" width=100%></table>
+      <ul>
+        <% for (var i in (config.links || theme.links)){ %>
+          <li>
+            <a href="<%- theme.links[i] %>" target="_blank"><%= i %></a>
+          </li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+<% } %>

@@ -1,0 +1,19 @@
+<div class="widget-wrap">
+
+<div class="widget">
+  <h3 class="widget-title"><center> 本站统计</center></h3>
+  <ul>
+    <% theme.visitor_counter.texts.forEach(function(item){ %>
+    <li><%- item %></li>
+    <% }); %>
+	
+	  <center>
+	  
+
+	  
+	     <span><!-- img src="http://i2.muimg.com/567571/76dcad0b3c440c27.png" width=14 px --></span>
+		 <span class="post-count">&nbsp;全站字数总计:<b><%= totalcount(site) %></b></span>
+<br>
+		 <span class="post-count">&nbsp;<i>小站诞辰：2017-03-06 </i></span>
+  </ul>
+</div>

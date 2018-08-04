@@ -1,0 +1,8 @@
+<p><span>文章字数(Words)：</span><%= wordcount(post.content) %></p></br>
+<% if (post.tags && post.tags.length){ %>
+  <%- list_tags(post.tags, {
+    show_count: false,
+    class: 'article-tag'
+  }) %>
+<% } %>
+

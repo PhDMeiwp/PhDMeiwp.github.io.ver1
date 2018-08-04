@@ -1,0 +1,20 @@
+<% if (site.posts.length){ %>
+<div class="widget-wrap">
+
+  <div class="widget">
+    <h3 class="widget-title">
+	<table width="100%" border="0"><td style="text-align:left; " width=75%><font size= 3px><%= __('recent_posts') %></font>
+	<td style="text-align:right; text-decoration: none; " width=25%><a href="http://phdmeiwp.github.io/archives/">&#x66F4;&#x591A;>></a></table>
+	</h3>
+	
+	
+      <ul>
+        <% site.posts.sort('date', -1).limit(5).each(function(post){ %>
+          <li>
+            <a href="<%- url_for(post.path) %>"><%= post.title || '(no title)' %></a>
+          </li>
+        <% }) %>
+      </ul>
+    </div>
+  </div>
+<% } %>
